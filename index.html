@@ -210,10 +210,10 @@
         <header>
             <div class="logo-terminal">CYBERSAFE.DZ</div>
             <p class="subtitle">Plateforme d'auto-défense numérique pour les internautes algériens. Apprenez à déjouer les pièges des cybercriminels avant qu'il ne soit trop tard.</p>
-            <!-- COMPTEUR DE VISITES (hits.sh) — remplace TON_SLUG par un nom unique -->
+            <!-- Badge statut du projet -->
             <div class="visit-counter">
-                <span>Visites :</span>
-                <img src="https://hits.sh/cybersafe-dz-mehdi.svg?style=plastic&color=00ff88&labelColor=11111b" alt="compteur de visites">
+                <span id="status-dot" style="color:var(--primary-green)">●</span>
+                <span>Plateforme active · Sensibilisation en ligne</span>
             </div>
         </header>
 
@@ -307,7 +307,7 @@
         // ============================================================
         // CONFIG — colle ici l'URL de ton Google Apps Script (étape 3)
         // Laisse vide ("") pour désactiver l'enregistrement en ligne.
-        const SHEET_API_URL = "https://script.google.com/macros/s/AKfycbwgmlAaC9RKLnUuAtl4R3Huo4nQ3VGVzktBccqdXqEWj8JjAEQD0-PwkARwgRG1hgBB/exec";
+        const SHEET_API_URL = "";
         // ============================================================
 
         const quizQuestions = [
